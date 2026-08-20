@@ -1,2 +1,14 @@
-# daily-commit-214
-My two hundred and fourteenth daily GitHub activity repository
+def calculate_digit_product(number):
+    product = 1
+
+    for digit in str(abs(number)):
+        product *= int(digit)
+
+    return product
+
+
+if __name__ == "__main__":
+    number = 2345
+
+    print(f"Number: {number}")
+    print(f"Digit product: {calculate_digit_product(number)}")

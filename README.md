@@ -1,4 +1,4 @@
-def calculate_digit_product(numbe):
+def calculate_digit_product(number):
     product = 1
 
     for digit in str(abs(number)):
